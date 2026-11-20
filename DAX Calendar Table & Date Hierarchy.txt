@@ -1,0 +1,25 @@
+Calendar = CALENDAR(MIN(Orders[Order Date]), MAX(Orders[Order Date]))
+### 2. `Calendar_Table.dax`
+```dax
+-- ==========================================================
+-- Week 2 Assignment: DAX Calendar Table & Hierarchy Columns
+-- ==========================================================
+
+-- 1. Calculated Table (Modeling -> New Table)
+Calendar = CALENDAR(MIN(Orders[Order Date]), MAX(Orders[Order Date]))
+
+-- 2. Calculated Columns for Date Hierarchy (Year -> Month -> Day)
+Year = YEAR('Calendar'[Date])
+
+Month Number = MONTH('Calendar'[Date])
+
+Month = FORMAT('Calendar'[Date], "MMMM")
+
+Day = DAY('Calendar'[Date])
+
+-- 3. Data Validation Measures
+Total Orders = COUNTROWS(Orders)
+
+Total Sales = SUM(Orders[Sales])
+
+Total Profit = SUM(Orders[Profit])

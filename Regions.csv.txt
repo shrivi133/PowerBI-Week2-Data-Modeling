@@ -1,0 +1,5 @@
+Region ID,Region,Country,State
+REG-01,North,India,Delhi
+REG-02,South,India,Karnataka
+REG-03,East,India,West Bengal
+REG-04,West,India,Maharashtra

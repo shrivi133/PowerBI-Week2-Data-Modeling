@@ -1,0 +1,6 @@
+Customer ID,Customer Name,Segment
+CUST-101,Aarav Sharma,Corporate
+CUST-102,Priya Nair,Consumer
+CUST-103,Rohan Verma,Home Office
+CUST-104,Sneha Kulkarni,Corporate
+CUST-105,Vikram Patel,Consumer

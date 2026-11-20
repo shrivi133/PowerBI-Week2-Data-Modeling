@@ -1,0 +1,6 @@
+Product ID,Product Name,Category,Sub-Category
+PROD-201,Laptop Pro 15,Technology,Machines
+PROD-202,Wireless Ergonomic Mouse,Technology,Accessories
+PROD-203,Executive Leather Chair,Furniture,Chairs
+PROD-204,Heavy Duty Paper Shredder,Office Supplies,Appliances
+PROD-205,27-inch UltraSharp Monitor,Technology,Peripherals
